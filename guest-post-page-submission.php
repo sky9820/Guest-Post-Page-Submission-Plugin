@@ -62,7 +62,6 @@ the plugin's settings page in admin
 */
 function gp_settings_page_content(){
 	?>
-    
     <div class="wrap gpbox">
     	<h1>Guest Post Form/Listing Shortcodes</h1>
         <p>This page is showing the shortcodes which you can use to show on any page or post for logged in Role for Authors only.</p>
