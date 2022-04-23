@@ -156,6 +156,7 @@ function renderForm()
         </div> 
         <div class="form-field">
             <input type="submit" id="submit" name="upload" value="Submit" />
+            <div class="loader"><img src="<?php echo GPURL; ?>/images/loader.gif" alt="loader" /></div>
         </div>
     </div>
 </form>
@@ -322,7 +323,7 @@ function show_post_shortcode_func( $atts )
 		'post_type' => 'post',
 		'post_author' => $current_user->ID,
 		'post_status' => array('pending'),
-		'posts_per_page' => 1,
+		'posts_per_page' => 10,
    	    'paged' => $paged,  
 		'order' => 'DESC', 
     	'orderby' => 'date'
