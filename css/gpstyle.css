@@ -1,0 +1,107 @@
+/* CSS */
+
+/**
+* Plugin UI CSS Styles
+* Author; @aakash
+*/
+
+#postForm .form-field label {
+    width: 150px;
+}
+#postForm .form-field {
+    margin-bottom: 20px;
+}
+#postForm .btn-primary {
+    background: #333;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin: 10px 0;
+    display: inline-block;
+	text-decoration: none;
+    outline: none;
+}
+#postForm input#submit {
+    border: none;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 4px;
+    background: #333;
+}
+div#ajax_response {
+    background: #ccc;
+    color: red;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    display: none;
+}
+#post_container th {
+    padding: 15px 15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-width: 2px;
+}
+#post_container td img.list-img {
+    border-radius: 2px;
+}
+#post_container td {
+    padding: 5px;
+    border-width: 2px;
+}
+
+
+/**
+* Number Pagination CSS Styles
+*/
+.page-navi {
+    text-align: center;
+}
+.page-navi.meta {
+    color: RGB(38, 166, 154);
+    font-size: 20px;
+    font-weight: normal;
+    border: solid 1px rgb(221, 221, 221);
+    padding: 10px 20px;
+    padding-left: 0;
+    border-radius:3px;
+}
+
+.page-numbers {
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: normal;
+    margin-left:-6px;
+    margin-top: 40px;
+}
+.page-numbers li{ display:inline-block;}
+
+.page-numbers.current {
+   padding: 10px 20px;
+   background: RGB(38, 166, 154);
+   color: rgb(255, 255, 255);
+   font-weight: 600;
+}
+
+.page-navi .prev {
+	border-right: 1px solid #CCC;
+   margin-right: 0;
+   margin-top: -10px;
+   font-family: 'Open Sans', sans-serif !important;
+   font-size: 18px;
+   letter-spacing: 0;
+   font-weight: normal;
+}
+
+.page-navi .next {
+	border-left: 1px solid #CCC;
+   margin-top: -10px;
+   border-right: none;
+   border-top: none;
+   border-bottom: none;
+   font-family: 'Open Sans', sans-serif !important;
+   font-size: 18px;
+   font-weight: normal;
+   letter-spacing: 0;
+}
