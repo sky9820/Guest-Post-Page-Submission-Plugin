@@ -50,7 +50,9 @@ div#ajax_response {
     padding: 5px;
     border-width: 2px;
 }
-
+.loader img {
+    width: 80px;
+}
 
 /**
 * Number Pagination CSS Styles
